@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/m_150dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:padding="@dimen/m_10dp">
+
+
+        <net.steamcrafted.materialiconlib.MaterialIconView
+            android:id="@+id/icon"
+            android:layout_width="@dimen/m_60dp"
+            android:layout_height="@dimen/m_60dp"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            app:materialIcon="face_profile"
+            app:materialIconColor="#FFFFFF"
+            app:materialIconSize="24dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/IdWellcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selamat Datang,"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/m_15dp" />
+
+            <TextView
+                android:id="@+id/IdFullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tatang Roswandi Ganda Wijaya"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/m_15dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/m_150dp"
+        android:layout_marginLeft="@dimen/m_10dp"
+        android:layout_marginRight="@dimen/m_10dp"
+        android:layout_marginTop="-80px"
+        android:background="@color/colorAccent"
+        android:orientation="horizontal">
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

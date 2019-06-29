@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_home"
+            android:title="Home"
+            app:materialIcon="home"
+            app:materialIconColor="#FE0000"
+            app:showAsAction="always" />
+
+        <item
+            android:id="@+id/menu_complain"
+            android:title="Pengaduan"
+            app:materialIcon="comment"
+            app:materialIconColor="#FE0000"
+            app:showAsAction="always" />
+
+        <item
+            android:id="@+id/menu_belanja"
+            android:title="Belanja"
+            app:materialIcon="shopping"
+            app:materialIconColor="#FE0000"
+            app:showAsAction="always" />
+
+        <item
+            android:id="@+id/menu_promo"
+            android:title="Promo"
+            app:materialIcon="humble_bundle"
+            app:materialIconColor="#FE0000"
+            app:showAsAction="always" />
+    </group>
+
+</menu>
